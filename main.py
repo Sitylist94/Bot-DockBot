@@ -99,4 +99,4 @@ async def eject(ctx, user : discord.User, *, reason = "Aucune raison n'a été d
 
 bot.run("TOKEN")
 
-# Dockbot V0.01
+# Dockbot V0.0.1
