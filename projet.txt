@@ -185,3 +185,10 @@ utility
 
   -ping
 
+count
+
+  -members count
+  
+  -channels count
+  
+  -rôles count
