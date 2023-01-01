@@ -1,0 +1,186 @@
+
+members flux
+
+  -welcome
+
+  -goodbye
+
+mod
+
+  -ban
+
+  -exclution
+
+  -eject
+
+  -mute
+
+  -jail
+
+  -warn
+
+  -auto mod
+
+    -bad words
+
+    -anti spam
+
+    -anti ping
+
+server infos
+
+  -nb members
+
+  -nb channels text
+
+  -nb channels voc
+
+  -descrition
+
+  -name
+
+  -creation date
+
+bot infos
+
+  -devs
+
+  -assist
+
+  -source code link
+
+  -dates
+
+  -nb server joined
+
+  -info commandes
+
+xp
+
+  -xp gain
+
+    -text rewards
+
+    -vocal rewards
+
+  -admin xp
+
+    -add xp
+
+    -reset xp
+
+    -withdraw xp
+
+  -top xp
+
+money
+
+  -money gain
+
+    -daily rewards
+
+  -admin money
+
+    -add money
+
+    -reset money
+
+    -withdraw money
+
+  -top money
+
+logs
+
+  -logs categorie
+
+  -logs channels
+
+    -logs bans
+
+    -logs exclusions
+
+    -logs mutes
+
+    -logs vocaux
+
+    -logs warns
+
+    -logs invites
+
+embed
+
+  -create embed
+
+    -embed type : 
+
+      -giveaway
+
+        -reward
+
+        -time
+
+        nb winners
+
+      -annonces
+
+      -bot say
+
+    embed send channel(s)
+
+rules
+
+  -content
+
+  -role react {@members}
+
+security
+
+  -capcha
+
+  -raid
+
+bot messages
+
+  -text
+
+  -link
+
+  -image
+
+  -interval
+
+nems
+
+  -news select
+
+    -news type : #source
+
+      -sport #
+
+      -auto #
+
+      -minecraft #
+
+      -video games #
+
+prefix select
+
+backup
+
+  -bachup create
+
+  -bachup auto
+
+    -backup update interval
+
+utility
+
+  -channel clear
+
+  -traductor
+
+    -mandarin
+
+    -anglais
+
+  -ping
