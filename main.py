@@ -84,12 +84,25 @@ async def ban(ctx, user : discord.User, *, reason = "Aucune raison n'a été don
     await ctx.send(embed = embed)
 
 @bot.command()
-@commands.has_permissions(eject_members=True)
+@commands.has_permissions(kick_members=True)
 async def eject(ctx, user : discord.User, *, reason = "Aucune raison n'a été donné"):
-    await ctx.guild.ban(user, reason = reason)
+    await ctx.guild.kick(user, reason = reason)
     embed=discord.Embed(title="**expulsion**", description="Un modérateur a frappé !")
-    embed.set_thumbnail(url="https://cdn2.iconfinder.com/data/icons/miscellaneous-245-color-shadow/128/exclusion_cancel_negation_boycott_rejection_embargo_disallowance_inhibition-256.png")
+    embed.set_thumbnail(url="https://sbedirect.com/4672-home_default/danger-sign-pictogram-for-electric-hazard-blast.jpg")
     embed.add_field(name = "Membre expulsé", value = user.name, inline = True)
+    embed.add_field(name = "Raison", value = reason, inline = True)
+    embed.add_field(name = "Modérateur", value = ctx.author.name, inline = True)
+    embed.set_footer(text = random.choice(funFact))
+
+    await ctx.send(embed = embed)
+
+    @bot.command()
+@commands.has_permissions(timeout_members=True)
+async def exclure(ctx, user : discord.User, *, reason = "Aucune raison n'a été donné"):
+    await ctx.guild.timeout(user, reason = reason)
+    embed=discord.Embed(title="**exclusion**", description="Un modérateur a frappé !")
+    embed.set_thumbnail(url="https://cdn2.iconfinder.com/data/icons/miscellaneous-245-color-shadow/128/exclusion_cancel_negation_boycott_rejection_embargo_disallowance_inhibition-256.png")
+    embed.add_field(name = "Membre exclu", value = user.name, inline = True)
     embed.add_field(name = "Raison", value = reason, inline = True)
     embed.add_field(name = "Modérateur", value = ctx.author.name, inline = True)
     embed.set_footer(text = random.choice(funFact))
