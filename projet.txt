@@ -185,6 +185,8 @@ utility
 
   -ping
 
+  -react add
+
 count
 
   -members count
