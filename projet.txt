@@ -4,12 +4,14 @@ members flux
   -welcome
 
   -goodbye
+  
+  -invites
 
 mod
 
   -ban
 
-  -exclution
+  -exclusion
 
   -eject
 
