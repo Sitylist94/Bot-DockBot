@@ -20,8 +20,14 @@ mod
   -jail
 
   -warn
-
-  -auto mod
+    
+    -warn counter
+    
+    -auto warn
+    
+    -manual warn
+    
+automod
 
     -bad words
 
