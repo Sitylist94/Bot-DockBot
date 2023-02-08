@@ -51,6 +51,8 @@ server infos
 
 bot infos
 
+  -logo 
+   
   -devs
 
   -assist
@@ -114,6 +116,8 @@ logs
     -logs warns
 
     -logs invites
+    
+    -logs messages
 
 embed
 
@@ -157,7 +161,7 @@ bot messages
 
   -interval
 
-nems
+news
 
   -news select
 
