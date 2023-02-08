@@ -206,3 +206,13 @@ count
   -channels count
   
   -rôles count
+  
+  divertissement 
+  
+    -memes
+    
+    -gifs
+    
+    -emoji
+    
+      -add emoji
