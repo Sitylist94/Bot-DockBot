@@ -767,5 +767,5 @@ async def create_embed(ctx):
         await ctx.send(embed=annonce_embed)
 
 
-bot.run("MTA1NTU1MjYxNzcwMDM5Mjk5MA.GODT5t.uULBYfUvVHsi1lU6k7SPDqdhtdCidJzjwYwQmg")
+bot.run(TOKEN)
 # Dockbot V0.0.1 pre-release 4
